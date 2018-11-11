@@ -1,0 +1,142 @@
+/***********  A template for a website with a menu across the top -  By Lin Taylor  ********/
+/*
+pink    : #FF8ECC
+purple  : #C471BE
+blue    : #53D3ED
+dkblue  : #358797
+gray    : #ABACBC
+litegray: #D8DBE2
+*/
+
+body {
+	margin     : 0px;
+	padding    : 0px;
+	text-align : center;
+	font-family: "century gothic";
+}
+.main-container {
+	min-height: 700px;
+}
+
+/************* HEADER STUFF ************/
+#header {
+	margin     : 0px auto;
+	text-align : center;
+	padding    : 0px;
+	padding-top: 60px;
+}
+#header h1 {
+	color  : #53D3ED;
+	padding: 0px;
+}
+/************* MENU ************/
+#menu {
+	margin : 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+#menu ul {
+	margin    : 0px;
+	padding   : 0px;
+	text-align: center;
+}
+#menu li {
+	display: inline;
+}
+#menu a {
+	padding  : 5px 40px;
+	font-size: 20px;
+	/* font-weight    : bold; */
+	color          : #FF8ECC;
+	text-decoration: none;
+}
+#menu a:hover {
+	color: #53D3ED;
+}
+/************* CONTENT ALL ************/
+#content {
+	margin    : 0px auto;
+	background: #EBEDF4;
+	padding   : 50px;
+}
+
+/************* CONTENT HOME ************/
+img {
+	padding: 0px;
+}
+.blockquote-footer {
+	color: white;
+}
+.card {
+	border-radius: 0px;
+}
+.card-quote:nth-of-type(even) {
+	background: #C471BE;
+}
+.card-quote:nth-of-type(odd) {
+	background: #FF8ECC;
+}
+/* p {
+	font-size: 15px;
+} */
+/************* CONTENT LEARN ************/
+.learn {
+	margin        : 0px auto;
+	padding-bottom: 15px;
+}
+.learn-bottom {
+	padding-top: 25px;
+}
+/************* CONTENT QUIZ & ABOUT ************/
+.quiz-me, .about {
+	margin: 0px auto;
+	width : 400px;
+}
+.quiz-me h4, .about h4 {
+	margin-bottom: 15px;
+}
+/************* CONTENT QUIZ ************/
+.quiz-me a {
+	background     : #FF8ECC;
+	color          : white;
+	text-decoration: none;
+}
+.quiz-me a:hover {
+	background  : white;
+	color       : #FF8ECC;
+	border-color: #FF8ECC;
+}
+/************* CONTENT ABOUT ************/
+.about ul {
+	margin    : 0px;
+	padding   : 0px;
+	text-align: center;
+}
+.about li {
+	list-style-type: none;
+	color          : #FF8ECC;
+	font-size      : 14px;
+}
+.about a {
+	color          : #FF8ECC;
+	text-decoration: none;
+	font-size      : 14px;
+}
+.about a:hover {
+	color: #53D3ED;
+}
+.about p {
+	font-size: 18px;
+	color    : #53D3ED;
+}
+.content-description {
+	font-size: 18px;
+}
+/************* FOOTER ************/
+footer {
+	margin-top: 25px;
+	font-size : 14px;
+}
+footer span {
+	color         : #FF8ECC;
+	padding-bottom: 25px;
+}
